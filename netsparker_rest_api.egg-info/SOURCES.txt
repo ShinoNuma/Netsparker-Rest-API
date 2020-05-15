@@ -1,0 +1,7 @@
+README.md
+setup.py
+netsparker_rest_api.egg-info/PKG-INFO
+netsparker_rest_api.egg-info/SOURCES.txt
+netsparker_rest_api.egg-info/dependency_links.txt
+netsparker_rest_api.egg-info/requires.txt
+netsparker_rest_api.egg-info/top_level.txt
