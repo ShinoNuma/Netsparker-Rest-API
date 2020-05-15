@@ -1,6 +1,6 @@
 
 # A REST interface to Netsparker
-[![PyPI Version](https://badge.fury.io/py/nessrest.svg)](https://pypi.python.org/pypi/netsparker_rest_api)
+[![PyPI Version](https://badge.fury.io/py/netsparker-rest-api.svg)](https://pypi.python.org/pypi/netsparker_rest_api)
 ### Dependencies:
 
 * Netsparker Team or Enterprise License (Not working with standard license)
@@ -10,7 +10,7 @@
 
 ### Quick Install
 ```
-pip install netsparker_rest_api
+pip install netsparker-api
 ```
 ### API Documentations:
 ```

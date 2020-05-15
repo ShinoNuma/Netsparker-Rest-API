@@ -12,7 +12,7 @@ this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-setup(name="netsparker_rest_api",
+setup(name="netsparker_api",
       version=Netsparker_Rest_API.__version__,
       include_package_data=True,
       exclude_package_data={'': ['*.pyc']},
@@ -29,4 +29,4 @@ setup(name="netsparker_rest_api",
           "License :: OSI Approved :: MIT License"
       ],
       keywords="netsparker netsparker_api netsparker_rest netsparker_enterprise netsparker_team",
-      install_requires=['requests >= 1.4','json'])
+      install_requires=['requests >= 1.4'])
