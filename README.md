@@ -1,6 +1,6 @@
 
 # A REST interface to Netsparker
-[![PyPI Version](https://badge.fury.io/py/netsparker-rest-api.svg)](https://pypi.python.org/pypi/netsparker_rest_api)
+[![PyPI Version](https://badge.fury.io/py/netsparker-api.svg)](https://pypi.python.org/pypi/netsparker_api)
 ### Dependencies:
 
 * Netsparker Team or Enterprise License (Not working with standard license)
@@ -21,7 +21,7 @@ https://www.netsparkercloud.com/docs/index
 * Get your account information.
 
 ```python 
-  from Netsparker_Rest_API import Netsparker_Account
+  from netsparker_api import Netsparker_Account
   
   credentials = {
   "API_ROOT": "https://www.netsparkercloud.com/api/1.0/%s",
@@ -36,7 +36,7 @@ https://www.netsparkercloud.com/docs/index
 * Schedules a scan to be launched in the future.
 
 ```python
-  from Netsparker_Rest_API import Netsparker_Scans
+  from netsparker_api import Netsparker_Scans
   
   credentials = {
   "API_ROOT": "https://www.netsparkercloud.com/api/1.0/%s",
@@ -70,7 +70,7 @@ https://www.netsparkercloud.com/docs/index
 * Returns the custom report of a scan in the specified format.
 
 ```python
-  from Netsparker_Rest_API import Netsparker_Scans
+  from netsparker_api import Netsparker_Scans
   
   credentials = {
   "API_ROOT": "https://www.netsparkercloud.com/api/1.0/%s",

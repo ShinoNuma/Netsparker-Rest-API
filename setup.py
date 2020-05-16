@@ -5,7 +5,7 @@ Build script for the Netsparker Rest API module
 from setuptools import setup
 from codecs import open
 from os import path
-import Netsparker_Rest_API
+import netsparker_api
 
 this_directory = path.abspath(path.dirname(__file__))
 
@@ -13,7 +13,8 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name="netsparker_api",
-      version=Netsparker_Rest_API.__version__,
+      packages=["netsparker_api"],
+      version=netsparker_api.__version__,
       include_package_data=True,
       exclude_package_data={'': ['*.pyc']},
       author="Samy Younsi (Shino Corp')",
